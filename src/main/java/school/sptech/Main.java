@@ -55,7 +55,7 @@ public class Main {
         Leitura novaLeitura = new Leitura(1,10,23,90,2.5 , 2.5 , "cidade" , "estado" , dataHorario);
 
 
-        connection.update("INSERT INTO leitura (idLeitura , dia , hora , direcaoVento, rajadaMax , velocidadeHoraria , cidade, estado , creatAt)")
+        connection.update("INSERT INTO leitura (idLeitura , dia , hora , direcaoVento, rajadaMax , velocidadeHoraria , cidade, estado , creatAt)");
 
 
         Filme novoFilme = new Filme(null, "Vingadores: Ultimato", 2019, "Ação", "Anthony Russo, Joe Russo");
